@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>我的首页-哈工程论坛</title>
+    <!-- 引入外部的js文件 -->
+    <link rel="stylesheet" href="style/main.css">
+    <script src="script/jquery-3.3.1.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+   	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="script/mainshow.js"></script>
+    <script src="script/koala-1.1.1.js"></script>
+
+</head>
+
+<body background="img/08.jpg">
+	<div>
+		<br />
+		<br />
+		<h3 class="text-center"  style="font-size:50px">
+			哈工程论坛
+		</h3>
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+	</div>
+<div class="container">
+	<div class="row clearfix">
+		<div class="col-md-12 column">
+			
+			<nav class="navbar navbar-default" role="navigation">
+				<div class="navbar-header">
+					 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="#">首页</a>
+				</div>
+				
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="active">
+							 <a href="/forum/mytips.html">我的帖子</a>
+						</li>
+						<li class="active">
+							 <a href="#">广场</a>
+						</li>
+						<li class="dropdown">
+							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">与我相关<strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li>
+									 <a href="#">我的评论</a>
+								</li>
+								<li>
+									 <a href="#">我的发帖</a>
+								</li>
+								<li >
+									 <a href="#">链接</a>
+								</li>
+								<li class="divider">
+								</li>
+								<li>
+									 <a href="#">1</a>
+								</li>
+								<li class="divider">
+								</li>
+								<li>
+									 <a href="#">2</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+					<form class="navbar-form navbar-left" role="search">
+						<div class="form-group">
+							<input type="text" class="form-control" />
+						</div> <button type="submit" class="btn btn-default">查找</button>
+					</form>
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active">
+							 <a href="#">链接</a>
+						</li>
+						<li class="dropdown">
+							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">个人信息管理<strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li>
+									 <a href="/forum/modpwd.html">修改密码</a>
+								</li>
+								<li>
+									 <a href="#" id="logout">注销登录</a>
+								</li>
+								<li>
+									 <a href="#">2</a>
+								</li>
+								<li class="divider">
+								</li>
+								<li>
+									 <a href="#">12</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				
+			</nav>
+		</div>
+	</div>
+	<div class="row clearfix">
+		<div class="col-md-12 column">
+			<h3>
+				欢迎您
+			</h3>
+			<ul class="breadcrumb">
+				<li><span id="fuserid"></span></li>
+				<li><span id="fusername"></span></li>
+			</ul>
+			<!-- <img alt="140x140" src="img/04.jpg" /> -->
+			<img id="head" alt="140x140" width=100 height=100 src="" />
+			<!-- <p>
+				 <em>王博韬</em> 
+				  <strong>王博韬</strong>
+				   <small>王博韬</small> 
+			</p> -->
+		</div>
+	</div>
+	<div class="col-md-12 column">
+		<br />
+		<br />
+		<br />
+		</div>
+	<div class="row clearfix">
+		<div class="col-md-12 column">
+			<div class="progress active">
+				<div class="progress-bar progress-success">
+				
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row clearfix">
+		<div class="col-md-8 column">
+			<div class="carousel slide" id="carousel-497977">
+				<ol class="carousel-indicators">
+					<li data-slide-to="0" data-target="#carousel-497977">
+					</li>
+					<li data-slide-to="1" data-target="#carousel-497977" class="active">
+					</li>
+					<li data-slide-to="2" data-target="#carousel-497977">
+					</li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="item">
+						<img alt="" src="img/04.jpg" />
+						<div class="carousel-caption">
+							<h4>
+								First Thumbnail label
+							</h4>
+							<p>
+								Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+							</p>
+						</div>
+					</div>
+					<div class="item active">
+						<img alt="" src="img/04.jpg" />
+						<div class="carousel-caption">
+							<h4>
+								Second Thumbnail label
+							</h4>
+							<p>
+								Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+							</p>
+						</div>
+					</div>
+					<div class="item">
+						<img alt="100*100" src="img/04.jpg" />
+						<div class="carousel-caption">
+							<h4>
+								Third Thumbnail label
+							</h4>
+							<p>
+								Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+							</p>
+						</div>
+					</div>
+				</div> <a class="left carousel-control" href="#carousel-497977" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-497977" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+			</div>
+		</div>
+		<div class="col-md-4 column">
+			<div class="media">
+				 <a href="#" class="pull-left"><img src="img/04.jpg" class="media-object" alt='' /></a>
+				<div class="media-body">
+					<h4 class="media-heading">
+						标题1
+					</h4> 巴拉巴拉
+					
+				</div>
+			</div>
+			<div class="media">
+				 <a href="#" class="pull-left"><img src="img/04.jpg" class="media-object" alt='' /></a>
+				<div class="media-body">
+					<h4 class="media-heading">
+						标题2
+					</h4> 叽叽咕咕
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row clearfix">
+		<div class="col-md-4 column">
+			<h2>
+				不知道写点什么
+			</h2>
+			<p>
+				内容
+			</p>
+			<p>
+				 <a class="btn" href="#">链接 »</a>
+			</p>
+		</div>
+		<div class="col-md-4 column">
+			<h2>
+				还是不知道写什么
+			</h2>
+			<p>
+				巴拉巴拉
+			</p>
+			<p>
+				 <a class="btn" href="#">链接 »</a>
+			</p>
+		</div>
+		<div class="col-md-4 column">
+			<h2>
+				继续不知道写什么
+			</h2>
+			<p>
+				外币巴伯
+			</p>
+			<p>
+				 <a class="btn" href="#">链接 »</a>
+			</p>
+		</div>
+	</div>
+</div>
+
+ 
+</body>
+
+
+
+
+</html>
